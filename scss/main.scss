@@ -1,0 +1,49 @@
+$font-title: 'Sedgwick Ave', cursive;
+$primary-color: #01415a;
+$white-color:#fff;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+@media screen and (max-width: 420px){
+    body{
+        width: 100rem;
+    }
+
+    .nav {
+        display: flex;
+        align-content: space-between;
+        &__menu {
+            align-content: flex-end;
+            & > img {
+                height: 1rem;
+            }
+        }
+        &__menu--list {
+            display: none;
+        }
+    }
+    
+}
+.nav {
+    background-color: $primary-color;
+    &__menu {
+        & > img {
+            height:2rem;;
+        }
+    }
+    &__menu--list > {
+        list-style-type: none;
+
+    }
+   
+}
+.list__item {
+
+    &--link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
