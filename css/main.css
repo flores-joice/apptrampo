@@ -93,8 +93,7 @@
         width: 2rem;
         height: 1rem;
         margin-right: 0.5rem; }
-        .nav__menu__menu > img--list {
-          display: none;
+        .nav__menu > img--list {
           display: none;
           position: absolute;
           right: 0.5rem;
@@ -233,7 +232,8 @@ main,
       width: 10rem; }
 
 .nav__menu > img {
-  display: none; }
+  display: none;
+  }
 .nav__menu--list {
   list-style-type: none;
   display: flex; }
@@ -270,7 +270,8 @@ main,
     box-shadow: 0px 0px 12px 2px #7171719a; }
   .list__anuncio--desc {
     width: 90%;
-    padding: 1rem; }
+    padding: 1rem;
+    }
   .list__anuncio--title {
     justify-content: space-between;
     padding-bottom: 0.5rem; }

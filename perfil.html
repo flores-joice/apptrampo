@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/main.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet"> -->
     <title>Perfil</title>
 </head>
@@ -14,15 +14,14 @@
     <header>
         <nav class="nav flex just-cont-center">
             <div class="nav__container align-it-center container flex">
-                <div class="nav__logo align-it-center flex">
+                <div class="nav__logo">
                     <img src="imgs/icone trampo400x100.png" alt="">
                 </div>
                 <div class="nav__menu">
                     <img src="imgs/circled-menu.png" alt="">
-                    <ul class="nav__menu--list flex">
+                    <ul class="nav__menu--list">
                         <li class="list__item"><a href="index.html" class="list__item--link">Inicio</a></li>
                         <li class="list__item"><a href="perfil.html" class="list__item--link">Perfil</a></li>
-                        <li class="list__item"><a href="anuncio.html" class="list__item--link">Meus Anúncios</a></li>
                         <li class="list__item"><a href="" class="list__item--link">Mensagens</a></li>
                         <li class="list__item"><a href="" class="list__item--link">Sair</a></li>
                     </ul>
@@ -31,18 +30,20 @@
         </nav>
     </header>
     <main class="flex just-cont-center">
-        <div class="container flex just-cont-center">
-            <section class="perfil flex">
-                <div class="perfil__desfoque flex just-cont-center align-it-center">
-                    <img src="./imgs/perfil.jpg" alt="" class="perfil__foto">
+        <div class="container flex just-cont-center direct-column">
+            <section class="perfil flex direct-column just-cont-center">
+                <div class="perfil__background flex just-cont-center">
+                    <div class="perfil__desfoque flex just-cont-center align-it-center">
+                        <img src="./imgs/perfil.jpg" alt="" class="perfil__foto">
+                    </div>
                 </div>
-                <div class="info__dados">
+                <div class="info__dados container">
                     <h4 class="info__dados--nome">Beyonce</h4>
                     <p class="info__dados--end">Califoria - USA</p>
                 </div>
             </section>
             <section class="info flex">
-                <div class="container info__container">
+                <div class="info__container">
                     <div class="info__anuncio flex just-cont-center align-it-center">
                         <a href="">Meus Anuncios</a>
                         <a href="">Favoritos</a>
