@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet"> -->
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="css/slide.css">
     <title>Anuncio</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav">
-            <div class="nav__container container">
+        <nav class="nav flex just-cont-center">
+            <div class="nav__container align-it-center container flex">
                 <div class="nav__logo">
                     <img src="imgs/icone trampo400x100.png" alt="">
                 </div>
@@ -30,64 +30,56 @@
         </nav>
     </header>
     <main>
-        <section class="anuncio">
-            <div class=" container__anuncio">
-                <div class="div__anuncio ">
-                    <h1 class="title">Beyonce</h1>
-                    <h4 class="title__sub">Cantora de baile de formatura.</h4>
+        <section class="anuncio flex just-cont-center">
+            <div class="container container__anuncio flex">
+                <div class="anuncio__div ">
+                    <h1 class="anuncio__title">Beyonce</h1>
+                    <h4 class="anuncio__titlesub">Cantora de baile de formatura.</h4>
                 </div>
-            </div>
-            <div class="anuncio__descricao">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione laborum, minima et labore rem
-                    dolores beatae animi maxime exercitationem unde, ex asperiores dicta modi quia distinctio.
-                    Mollitia, accusamus ex.</p>
-            </div>
-            <div class="slider__img">
-                <div class="slides fade">
-                    <div class="slider__numbertext">1 / 3</div>
-                    <img src="https://www.dropbox.com/s/6i60hcgrz7yatl5/nexus-6-2770-001.jpg?raw=1">
-                    <div class="slider__text">Caption Text</div>
+                <div class="anuncio__descricao">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione laborum, minima et labore
+                        rem
+                        dolores beatae animi maxime exercitationem unde, ex asperiores dicta modi quia distinctio.
+                        Mollitia, accusamus ex.</p>
+                </div>
+                <div class="CSSgal">
+
+                    <!-- Don't wrap targets in parent -->
+                    <s id="s1"></s>
+                    <s id="s2"></s>
+                    <s id="s3"></s>
+                    <s id="s4"></s>
+
+                    <div class="slider">
+                        <div>
+                            <img src="./imgs/show_1.jpg" alt="" class="slider__img">
+                        </div>
+                        <div>
+                            <img src="./imgs/show_2.jpg" alt="" class="slider__img">
+                        </div>
+                        <div>
+                            <img src="./imgs/show_3.jpg" alt="" class="slider__img">
+                        </div>
+                        <div>
+                            <img src="./imgs/show_4.jpg" alt="" class="slider__img">
+                        </div>
+                    </div>
+
+                    <div class="bullets">
+                        <a href="#s1">1</a>
+                        <a href="#s2">2</a>
+                        <a href="#s3">3</a>
+                        <a href="#s4">4</a>
+                    </div>
+
                 </div>
 
-                <div class="slides fade">
-                    <div class="slider__numbertext">2 / 3</div>
-                    <img src="https://www.dropbox.com/s/wu9u6l53z3q6zpa/date.jpg?raw=1">
-                    <div class="slider__text">Caption Two</div>
-                </div>
-
-                <div class="slides fade">
-                    <div class="slider__numbertext">3 / 3</div>
-                    <img src="https://www.dropbox.com/s/c7vg753l95iv7g8/photo-bg-04.jpg?raw=1">
-                    <div class="slider__text">Caption Three</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <br>
-
-            <div class="slider__dots" style="text-align:center">
-                <span class="slider__dots--dot" onclick="currentSlide(1)"></span>
-                <span class="slider__dots--dot" onclick="currentSlide(2)"></span>
-                <span class="slider__dots--dot" onclick="currentSlide(3)"></span>
-            </div>
-            <!-- <div class="galeria">
-                <span id="slider-image-1"></span>
-                <span id="slider-image-2"></span>
-                <span id="slider-image-3"></span>
-                <div class="galeria__img">
-                    <img src="./imgs/show_1.jpg" class="slider-image" />
-                    <img src="./imgs/show_2.jpg" class="slider-image" />
-                    <img src="./imgs/show_3.jpg" class="slider-image" />
-                </div>
-                <div class="button-holder">
-                    <a href="#slider-image-1" class="slider-change"></a>
-                    <a href="#slider-image-2" class="slider-change"></a>
-                    <a href="#slider-image-3" class="slider-change"></a>
-                </div>
-            </div> -->
         </section>
     </main>
+    <footer class="flex align-it-center just-cont-center">
+        <p>Desenvolvido por Joice Flores / 2018</p>
+    </footer>
 
 </body>
 
