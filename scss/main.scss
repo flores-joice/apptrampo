@@ -30,6 +30,10 @@ main,
     flex-direction: column;
     padding: 2rem 4rem 0 4rem;
   }
+  &__form {
+    flex-direction: column;
+    width: 70%;
+  }
 }
 .nav {
   background-color: #01415a;
@@ -91,6 +95,10 @@ main,
     border-bottom: #fff solid 1px;
     color: #01415a
   }
+  &--item > a {
+    text-decoration: none;
+    color: #01415a;
+  }
   &--item > img {
     width: 6rem;
     border-radius: 5px;
@@ -147,12 +155,11 @@ main,
     flex-direction: column;
     justify-content: center;
   }
-  &__anuncio > a {
-    text-decoration: none;
-    color: #F9F8D1;
-    background-color: #01415a;
+  &__anuncio > p {
+    color: #01415a;
+    background-color: rgb(247, 247, 147);
     padding: 1rem 1.5rem;
-    width: 13rem;
+    width: 26rem;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -191,10 +198,84 @@ footer {
 .btn-anuncio {
   background-color: #01415a;
   color: #F9F8D1;
-  width: 100%;
+  width: 50%;
   padding: 1rem;
   border-radius: 5px;
   margin-top: 1rem;
+}
+.btn {
+ width: 100%;
+}
+.form{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.form__form{
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.form__title{
+  color: #01415a;
+  margin-bottom: 1rem;
+}
+
+.form__form-group{
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form__label{
+  display: block;
+  color: #000000;
+}
+
+.form__input{
+  width: 90%;
+  border-radius: 2px;
+  border: 1px solid #ECDDF3;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form__button {   
+  background-color: #01415a;
+  color: #ffffff;
+  border: 0;
+  width: 90%;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 21px;
+  height: 40px;
+}
+
+.form__button:hover{
+  background-color: #02667C;
+  color: #ECDDF3;
+  transition: 0.3s;
+}
+
+.resposta__table{
+  width: 100%;
+  text-align: left;
+}
+
+.resposta__header{
+  display: flex;
+}
+
+.resposta__header th{
+  border-bottom: 1px solid #ECDDF3;
+  padding: 10px 0;
+  
 }
 
     

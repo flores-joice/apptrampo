@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <title>Anuncio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav flex just-cont-center">
+            <div class="nav__container align-it-center container flex">
+                <div class="nav__logo">
+                    <img src="imgs/icone trampo400x100.png" alt="">
+                </div>
+                <div class="nav__menu">
+                    <img src="imgs/circled-menu.png" alt="">
+                    <ul class="nav__menu--list">
+                        <li class="list__item"><a href="index.html" class="list__item--link">Inicio</a></li>
+                        <li class="list__item"><a href="perfil.html" class="list__item--link">Perfil</a></li>
+                        <li class="list__item"><a href="" class="list__item--link">Mensagens</a></li>
+                        <li class="list__item"><a href="" class="list__item--link">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <div class="form flex just-cont-center">
+                <div class="container container__form flex just-cont-center align-it-center">
+                    <h1 class="form__title title">Cadastrar Serviço</h1>
+                    <form action="" class="form__form flex">
+                        <div class="form__form-group">
+                            <label for="formInputName" class="form__label">Nome Profissional</label>
+                            <input type="text" class="form__input" id="formInputName" placeholder="Ex. Marido de Aluguel">
+                        </div>
+                        <div class="form__form-group">
+                            <label for="formInputEnd" class="form__label">Endereço</label>
+                            <input type="text" class="form__input" id="formInputEnd" placeholder="Rua º, bairro, cidade, estado.">
+                        </div>
+                        <div class="form__form-group">
+                            <label for="formInputCep" class="form__label">CEP</label>
+                            <input type="number" class="form__input" id="formInputCep" placeholder="00000-000">
+                        </div>
+                        <div class="form__form-group">
+                            <p>Qual a categoria do seu serviço?</p>
+                            <input type="radio" name="gender" value="auto"> Auto<br>
+                            <input type="radio" name="gender" value="beleza"> Beleza<br>
+                            <input type="radio" name="gender" value="construção"> Construção<br>
+                            <input type="radio" name="gender" value="consultoria"> Consultoria<br>
+                            <input type="radio" name="gender" value="gastromnomia"> Gastronomia<br>
+                            <input type="radio" name="gender" value="saude"> Saúde<br>
+                            <input type="radio" name="gender" value="serviçosDomesticos"> Serviços domesticos<br>
+                            <input type="radio" name="gender" value="manutencao"> Manutenção<br>
+                            <input type="radio" name="gender" value="transporte"> Transporte
+                        </div>
+                        <div class="form__form-group">
+                            <label for="formInputAtividade" class="form__label">Atividade</label>
+                            <input type="text" class="form__input" id="formInputAtividade" placeholder="Manutenção eletrica, hidráulica...">
+                        </div>
+                        <div class="form__form-group">
+                            <label for="formInputFoto" class="form__label">Foto</label>
+                            <input type="file" class="form__input" id="formInputFoto" placeholder="Manutenção eletrica, hidráulica...">
+                        </div>
+                        <div class="form__form-group">
+                            <label for="formInputFoto" class="form__label">Foto</label>
+                            <input type="file" class="form__input" id="formInputFoto" placeholder="Manutenção eletrica, hidráulica...">
+                        </div>
+                        <div class="form__form-group">
+                            <button class="button form__button">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex align-it-center just-cont-center">
+        <p>Desenvolvido por Joice Flores / 2018</p>
+    </footer>
+
+</body>
+
+</html>
