@@ -17,23 +17,23 @@ http://stackoverflow.com/a/34696029/383904
 /* SLIDER */
 
 .CSSgal .slider {
-    height: 100%;
-	white-space: nowrap;
-	font-size: 0;
-	transition: 0.8s;
+    /* height: 100%; */
+    white-space: nowrap;
+    font-size: 0;
+    transition: 0.8s;
 }
 
 /* SLIDES */
 
 .CSSgal .slider > * {
     font-size: 1rem;
-	display: inline-block;
-	white-space: normal;
-	vertical-align: top;
-	height: 100%;
-	width: 100%;
-	background: none 50% no-repeat;
-	background-size: cover;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background: none 50% no-repeat;
+    background-size: cover;
 }
 
 .slider__img {
@@ -138,7 +138,7 @@ http://stackoverflow.com/a/34696029/383904
    CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .CSSgal{
-	color: rgb(185, 76, 76);	
+	color: rgb(185, 76, 76);
 	text-align: center;
 }
 .CSSgal {
@@ -152,4 +152,23 @@ http://stackoverflow.com/a/34696029/383904
 	margin: 0 3px;
 	color: rgba(0,0,0,0.8);
 	text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+	.slider {
+		height: 50%;
+	}
+	.slider__img {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 420px){
+	.slider {
+		height: 50%;
+	}
+	.slider__img {
+		width: 100%;
+	}
+
 }
